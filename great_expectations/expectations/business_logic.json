@@ -1,0 +1,42 @@
+{
+  "expectations": [
+    {
+      "id": "ed91895a-34ff-4425-8ae7-5f36c3ad5cf6",
+      "kwargs": {
+        "column": "amount",
+        "max_value": 1000000.0,
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "66f528c7-9bcb-4533-9a61-b7d64b9949f9",
+      "kwargs": {
+        "column": "currency",
+        "value_set": [
+          "INR"
+        ]
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_in_set"
+    },
+    {
+      "id": "3c6730fd-a775-4f30-a463-ce135324179d",
+      "kwargs": {
+        "column": "payer_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    }
+  ],
+  "id": "452075a7-aaf9-4aff-9c96-269c3ca80a76",
+  "meta": {
+    "great_expectations_version": "1.11.0"
+  },
+  "name": "business_logic",
+  "notes": null
+}

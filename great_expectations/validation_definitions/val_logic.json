@@ -1,0 +1,22 @@
+{
+  "data": {
+    "asset": {
+      "id": "5c2cd557-0fbc-4576-9215-e837f8589f79",
+      "name": "transactions_asset"
+    },
+    "batch_definition": {
+      "id": "a2ba0d79-97f9-489f-914c-20d587f9597d",
+      "name": "batch_def"
+    },
+    "datasource": {
+      "id": "59a125b0-15e9-43d4-a1f4-c8f8856fc340",
+      "name": "police_datasource"
+    }
+  },
+  "id": "c8c4ddb0-0299-4012-8021-3dbfe0029de4",
+  "name": "val_logic",
+  "suite": {
+    "id": "452075a7-aaf9-4aff-9c96-269c3ca80a76",
+    "name": "business_logic"
+  }
+}
